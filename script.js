@@ -1,5 +1,5 @@
 function fazerlogin() {
-    const usuario = document.getElementById("input-usuario").value.trim
+    const usuario = document.getElementById("input-usuario").value.trim()
     const senha = document.getElementById("input-senha").value.trim()
 
     if (!usuario || !senha)
