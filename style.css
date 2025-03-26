@@ -124,3 +124,44 @@ body {
 .Registrar-conta a:hover {
     text-decoration: underline;
 }
+
+.alertinha {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    padding-top: 150px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.alerta-conteudo {
+    background-color: transparent;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    width: 60%;
+    max-width: 500px;
+    font-family: "Poppins", sans-serif;
+    color: #fff ;
+    font-size: 18px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    text-align: center;
+}
+
+.fechar {
+    color: purple;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.fechar:hover {
+    color: rgba(255, 255, 255, .2);
+}
